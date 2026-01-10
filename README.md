@@ -1,4 +1,5 @@
 PawPal - Pet Adoption & Donation Platform
+
 About The Project
 PawPal is a Flutter-based mobile application that connects pet lovers with animals in need. The platform facilitates pet adoption, donations for animal welfare, and rescue operations through an intuitive mobile interface.
 
@@ -113,4 +114,5 @@ Parameters:
 -name (String) - User's name (required)
 
 amount (String) - Amount in cents (required)
+
 
