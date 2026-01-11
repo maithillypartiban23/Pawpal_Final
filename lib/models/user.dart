@@ -27,9 +27,7 @@ class User {
     password = json['password'];
     phone = json['phone'];
     regDate = json['reg_date'];
-
-    walletBalanceCents = (double.parse(json['wallet_balance'].toString()) * 100)
-        .toInt();
+    walletBalanceCents = (double.parse(json['wallet_balance'].toString()) * 100).toInt();
   }
 
   Map<String, dynamic> toJson() {
@@ -41,7 +39,6 @@ class User {
     data['phone'] = phone;
     data['reg_date'] = regDate;
     data['avatar'] = userAvatar;
-    // Convert cents back to RM: divide by 100
     data['wallet_balance'] = (walletBalanceCents ?? 0) / 100;
     return data;
   }
