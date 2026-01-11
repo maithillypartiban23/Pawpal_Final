@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:pawpal1/myconfig.dart';
 import 'package:pawpal1/models/pet.dart';
-import 'package:pawpal1/views/mydonation.dart';
+import 'package:pawpal1/views/donationhistory.dart';
 import 'package:pawpal1/models/user.dart';
 
 class DonationScreen extends StatefulWidget {
@@ -208,3 +208,4 @@ class _DonationScreenState extends State<DonationScreen> {
     }
   }
 }
+
